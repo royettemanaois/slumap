@@ -1029,6 +1029,12 @@
 				"pair":"PrinceBernhardGym CCA",
 				"points":"197 617, 217 620, 204 653, 201 688, 186 706",
 				"type":"primary"
-			}			
+			}	
+		
+			{
+	   			 "pair": "Annex Rizal",
+	      			 "points": "187 825, 204 825, 259 716, 280 684, 317 636, 317 636, 348 586, 395 623, 408 617",
+	      			 "type": "primary"
+	   		}
 	]
 }
