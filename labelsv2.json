@@ -127,6 +127,18 @@
 			"for":"MensDorm, 39"
 		},
 		{
+           		 "name":"Hospital",
+            		 "x": "350",
+           		 "y": "954",
+          		 "for":"HospitalCanteen,43"
+       		},
+        	{
+           		 "name":"Canteen",
+           		 "x": "398",
+           		 "y": "954",
+           		 "for":"HospitalCanteen,43"
+        	},
+		{
 			"name":"COPYRIGHT © 2017 BSCS Batch 2018",
 			"x": "10",
 			"y": "1200",
