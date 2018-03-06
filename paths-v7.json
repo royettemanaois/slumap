@@ -1138,10 +1138,53 @@
 				"points": "317 636, 280 684, 258 716, 195 830, 187 825",
 				"type": "primary"
 			},
+		
 			{
                 		"pair":"MainGate HospitalCanteen",
 				"points":"141 206, 190 231, 217 249, 233 264, 244 284, 230 292,231 296, 239 293, 244 299, 246 303, 297 325, 350 456, 365 482, 357 502, 348 520, 372 536, 317 636,  221 800, 222 848, 376 934",
 				"type":"primary"
-           		 }
+           		 },
+		
+			{
+                		"pair":"HospitalCanteen SacredHeart",
+				"points":"376 934, 320 900, 300 868",
+				"type":"primary"
+			},
+
+			{
+                		"pair":"HospitalCanteen Vath",
+				"points":"376 934, 222 848, 221 800, 317 636, 308 611",
+				"type":"primary"
+			},
+
+			{
+                		"pair":"HospitalCanteen CCA",
+				"points":"376 934, 222 848, 221 800, 317 636, 317 630, 308 628, 273 690, 247 675, 240 684, 220 672, 186 706",
+				"type":"primary"
+			},
+			 
+			{
+                		"pair":"HospitalCanteen Chapel",
+				"points":"376 934, 222 848, 221 800, 317 636, 375 537, 355 525, 372 484, 297 325, 280 288,269 281,258 283,262 262, 285 233, 299 222",
+				"type":"primary"
+			},
+
+			{
+                		"pair":"HospitalCanteen Perfecto",
+				"points":"376 934, 222 848, 221 800, 317 636, 375 537, 355 525, 372 484, 467 333, 466 318",
+				"type":"primary"
+			},
+
+			{
+                		"pair":"HospitalCanteen Hahn",
+				"points":"376 934, 222 848, 221 800, 317 636, 348 586, 395 623, 465 666,516 615, 532 611",
+				"type":"primary"
+			},
+
+			{
+                		"pair":"HospitalCanteen Rizal",
+				"points":"376 934, 222 848, 221 800, 317 636, 348 586, 395 623, 408 617",
+				"type":"primary"
+			}
 	]
 }
