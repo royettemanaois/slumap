@@ -354,7 +354,7 @@ function pointOfInterestDetails(num, arrayIndex) {
 		}
 
 	}
-
+	content += "<img src="+obj.image+" alt='sample'>"; 
 	// show the details of the point
 	document.getElementById("head").innerHTML = "Point Details";
 	document.getElementById("content").innerHTML = content;

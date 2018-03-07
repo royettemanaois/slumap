@@ -271,7 +271,8 @@
 		"floor": "3rd",
 		"x": "256", 
 		"y": "308",
-		"class": "office"
+		"class": "office",
+		"image": "./0.jpg"
 		
 },
 { 
