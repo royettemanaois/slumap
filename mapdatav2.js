@@ -164,7 +164,7 @@ function generatePointsOfInterests(array) {
 			}
 		} else { // for the single entries
 			var element = "<a class=\"interestpoint " + arr.building + " " + arr.floor + " "+arr.class+"\"><circle name=\""+arr.pointname+
-			"\" name=\""+arr.pointname+"\" cx=\""+arr.x+"\" cy=\""+arr.y+"\" onclick=\"pointOfInterestDetails("+v+");\" class=\""+
+			"\" name=\""+arr.pointname+"\" cx=\""+arr.x+"\" cy=\""+arr.y+"\" onclick=\"pointOfInterestDetails("+v+"); getPoiNum("+v+");\" class=\""+
 			arr.class+"\" /></a>";
 			document.getElementById(mainSVG).appendChild(parseSVG(element));
 		}		
