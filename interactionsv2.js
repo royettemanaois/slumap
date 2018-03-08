@@ -355,7 +355,7 @@ function pointOfInterestDetails(num, arrayIndex) {
 
 	}
 	if(obj.image == ""){
-        	content += "<form action='upload.php' method='post' enctype='multipart/form-data'> Select image to upload: <input type='file' name='fileToUpload' id='fileToUpload'> <input type='submit' value='Upload Image' name='submit'></form>";
+        	content += "<form action='upload.php' method='post' enctype='multipart/form-data'> Select image to upload: <input type='file' name='fileToUpload' id='fileToUpload'> <input type='submit' value='Upload Image' name='submit' onclick='updatePoi();'></form>";
         
         
     }else{
@@ -366,6 +366,21 @@ function pointOfInterestDetails(num, arrayIndex) {
 	document.getElementById("content").innerHTML = content;
 	document.getElementById("details").setAttribute("style", "display: block");
 	document.getElementById("details").setAttribute("class", "point");
+}
+
+var currentNum;
+
+function getPoiNum(num){
+    currentNum = num;
+}
+
+function updatePoi(){
+    var num = Number(currentNum);
+    var obj = poisdata["Points"][num];
+    var name = document.getElementById('fileToUpload').files[0].name;
+    var filePath = "./poi/"+name;
+    obj.image = filePath;
+    alert(obj.image);
 }
 
 
